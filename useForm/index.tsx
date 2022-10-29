@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FormValues } from "../../interface/types";
+import { FormValues } from "../interface/types";
 
 export const useForm = (initialvalue?: FormValues) => {
   const [form, setForm] = useState({} as FormValues);

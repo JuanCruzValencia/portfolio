@@ -26,7 +26,7 @@ export const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contact">
       <FormControl>
         <Heading
           textAlign="center"
