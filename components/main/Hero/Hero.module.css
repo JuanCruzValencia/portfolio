@@ -1,0 +1,7 @@
+.hero__infoTitle {
+  font-size: 72px;
+  color: #00d4ff;
+  background: -webkit-linear-gradient(65deg, #00d4ff, #323e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
