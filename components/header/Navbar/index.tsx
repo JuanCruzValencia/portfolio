@@ -6,20 +6,20 @@ export const Navbar = () => {
     <Flex
       align="center"
       justify="center"
-      p="10px 50px"
+      p={{base: "0", md: "10px 50px"}}
       borderBottom="1px solid #ffffff"
       maxH="50px"
     >
       <Box>
         <Image
           w="100%"
-          h="50px"
+          maxH="40px"
           src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/Frame.svg?alt=media&token=c2351609-5563-4e3a-aa3c-fb3a0b932c0c"
           alt="logo_svg"
         />
       </Box>
       <Spacer />
-      <Box display="flex" gap="1.5rem">
+      <Box display="flex" gap="1.5rem" fontSize="1.1em">
         <NextLink href="#projects">
           <Link color="#bbe5ed" _hover={{ color: "#ba1e68" }}>
             Projects

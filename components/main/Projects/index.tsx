@@ -15,7 +15,7 @@ import { projects } from "../../../projects/db";
 
 export const Projects = () => {
   return (
-    <Flex direction="column" id="projects" gap="100px" mt="150px">
+    <Flex direction="column" id="projects" gap="3rem" mt="10rem">
       <Stack
         display="flex"
         flexDirection="column"
@@ -46,7 +46,16 @@ export const Projects = () => {
       </Stack>
       {projects.map((project) => {
         return (
-          <Flex maxW="1000px" maxH="300px" gap="3rem" p={2} key={project.title}>
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            maxW="100%"
+            gap="3rem"
+            p={2}
+            key={project.title}
+            justifyContent="center"
+            alignItems="center"
+            mt="2rem"
+          >
             <Box
               maxW="500px"
               display="flex"
@@ -80,7 +89,8 @@ export const Projects = () => {
                 src={project.image}
                 alt={project.title}
                 objectFit="contain"
-                maxW="500px"
+                w="100%"
+                maxH="250"
               />
             </Box>
           </Flex>

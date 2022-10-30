@@ -14,13 +14,14 @@ import NextLink from "next/link";
 
 export const Hero = () => {
   return (
-    <Flex h="600px" gap="7rem" justify="center" mt="70px" minW="100vh">
+    <Flex h="100%" gap="7rem" justify="center" mt="70px" w="100%" direction={{base: "column", md: "row"}}>
       <Box
         className={styles.hero__info}
         display="flex"
         gap=".5rem"
         flexDirection="column"
-        w="500px"
+        w="100%"
+        maxW="500px"
         justifyContent="center"
       >
         <Highlight
@@ -39,7 +40,7 @@ export const Hero = () => {
         <Heading className={styles.hero__infoTitle}>
           Hi, i&apos;m Juan Cruz
         </Heading>
-        <Text>
+        <Text fontSize="1.1em">
           I love to create beautiful and clean digital experiences. I like to
           work with different technologies as React, Next and SASS among others.
         </Text>

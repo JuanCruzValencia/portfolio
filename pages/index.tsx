@@ -18,15 +18,11 @@ export default function Home() {
       <header>
         <Navbar />
       </header>
-      <main className={styles.main}>
         <Hero />
         <Projects />
         <About />
         <Contact />
-      </main>
-      <footer>
         <Footer />
-      </footer>
     </div>
   );
 }

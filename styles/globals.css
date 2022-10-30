@@ -23,12 +23,10 @@ p {
   color: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@media only screen and (max-width: 600px) {
+ * {
+  margin: 0;
+  padding: 0;
+
+}
 }

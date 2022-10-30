@@ -34,15 +34,18 @@ export const Contact = () => {
   return (
     <Container
       id="contact"
-      m="150px 0"
       display="flex"
-      flexDirection="row"
-      h="450px"
+      flexDirection={{ base: "column", md: "row" }}
       gap="5rem"
-      alignItems="center"
-      minW="100%"
+      mt="10rem"
+      mb="3rem"
+      justifyContent="center"
     >
-      <Stack display="flex" flexDirection="column" w="600px">
+      <Stack
+        display="flex"
+        flexDirection="column"
+        minW={{ base: "100%", md: "500px" }}
+      >
         <Highlight
           query="send me a"
           styles={{
@@ -59,7 +62,7 @@ export const Contact = () => {
         <Heading color="#bbe5ed" fontSize="45px" fontWeight="600">
           Message
         </Heading>
-        <Text>
+        <Text fontSize="1.3em">
           Get this space and tell me your ideas so that we can work on them
           together.
         </Text>
@@ -70,7 +73,7 @@ export const Contact = () => {
         </Alert>
       ) : (
         <form onSubmit={(e) => handleSubmit(e)}>
-          <FormControl minW="600px" textAlign="center">
+          <FormControl minW={{ base: "100%", md: "500px" }} textAlign="center">
             <FormLabel color="#bbe5ed">NAME</FormLabel>
             <Input
               type="text"
