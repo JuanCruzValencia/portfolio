@@ -14,7 +14,7 @@ export const Navbar = () => {
         <Image
           w="100%"
           h="50px"
-          src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/Frame.svg?alt=media&token=a1833f6d-ebad-494e-a69f-d2f3f1f2bce8"
+          src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/Frame.svg?alt=media&token=c2351609-5563-4e3a-aa3c-fb3a0b932c0c"
           alt="logo_svg"
         />
       </Box>
