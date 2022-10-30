@@ -10,6 +10,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import styles from "./Hero.module.css";
+import NextLink from "next/link";
 
 export const Hero = () => {
   return (
@@ -20,6 +21,7 @@ export const Hero = () => {
         gap=".5rem"
         flexDirection="column"
         w="500px"
+        justifyContent="center"
       >
         <Highlight
           query="front-end developer"
@@ -42,22 +44,26 @@ export const Hero = () => {
           work with different technologies as React, Next and SASS among others.
         </Text>
         <Stack spacing={4} direction="row" align="center" mt="10px">
-          <Button
-            bg="#5643fd"
-            _hover={{ bg: "#ba1e68" }}
-            size="md"
-            color="#ffffff"
-          >
-            Projects
-          </Button>
-          <Button
-            bg="#5643fd"
-            _hover={{ bg: "#ba1e68" }}
-            size="md"
-            color="#ffffff"
-          >
-            LinkedIn
-          </Button>
+          <NextLink href="https://github.com/JuanCruzValencia">
+            <Button
+              bg="#5643fd"
+              _hover={{ bg: "#ba1e68" }}
+              size="md"
+              color="#ffffff"
+            >
+              Projects
+            </Button>
+          </NextLink>
+          <NextLink href="https://www.linkedin.com/in/juan-cruz-valencia-vernengo-b91948241/">
+            <Button
+              bg="#5643fd"
+              _hover={{ bg: "#ba1e68" }}
+              size="md"
+              color="#ffffff"
+            >
+              LinkedIn
+            </Button>
+          </NextLink>
         </Stack>
       </Box>
       <Box className={styles.hero__img}>
