@@ -11,11 +11,13 @@ import {
   Text,
   Alert,
   AlertIcon,
+  Icon,
 } from "@chakra-ui/react";
 import { useForm } from "../../../useForm/index";
 import { FormValues } from "../../../interface/types";
 import { saveMessages } from "../../../firebase/functions";
 import React, { useState } from "react";
+import { BsEnvelope } from "react-icons/bs";
 
 export const Contact = () => {
   const [message, setMessage] = useState(false);
@@ -66,6 +68,10 @@ export const Contact = () => {
           Get this space and tell me your ideas so that we can work on them
           together.
         </Text>
+        <Stack display="flex" flexDirection="row" alignItems="center" gap="0.5rem">
+          <Icon as={BsEnvelope} color="#ffffff" position="relative" top="5px"/>
+          <Text>jcvalenciaver@gmail.com</Text>
+        </Stack>
       </Stack>
       {message ? (
         <Alert status="success" maxW="270px" variant="solid">

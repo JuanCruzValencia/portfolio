@@ -73,16 +73,32 @@ export const Projects = () => {
                 })}
               </Stack>
               <Text textAlign="justify">{project.description}</Text>
-              <Button
-                bg="#5643fd"
-                _hover={{ bg: "#ba1e68" }}
-                color="#ffffff"
-                w="80px"
-                alignSelf="center"
-                minH="40px"
-              >
-                <NextLink href={project.url}>GitHub</NextLink>
-              </Button>
+              <Flex direction="row" justify="center" align="center" gap="1rem">
+                <Button
+                  bg="#5643fd"
+                  _hover={{ bg: "#ba1e68" }}
+                  color="#ffffff"
+                  w="80px"
+                  minH="40px"
+                  mt="0px"
+                >
+                  <NextLink href={project.url} target="_blank">
+                    GitHub
+                  </NextLink>
+                </Button>
+                <Button
+                  bg="#5643fd"
+                  _hover={{ bg: "#ba1e68" }}
+                  color="#ffffff"
+                  w="80px"
+                  minH="40px"
+                  mt="0px"
+                >
+                  <NextLink href={project.deploy} target="_blank">
+                    Deploy
+                  </NextLink>
+                </Button>
+              </Flex>
             </Box>
             <Box>
               <Image

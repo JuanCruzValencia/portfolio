@@ -7,6 +7,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/screen-recording%20(4).gif?alt=media&token=a0ddea47-185f-4b8c-98bf-ee46a42b1ced",
     techs: ["React", "Firebase", "FakeStoreAPI"],
+    deploy: "https://juancruzvalencia.github.io/Balto-Shop/",
   },
   {
     title: "JS News - News Portal Javascript App Project",
@@ -15,6 +16,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/screen-recording%20(2).gif?alt=media&token=ca17c812-c7fa-4a8d-a352-92de43d2b6cc",
     techs: ["JavaScript", "OpenWeatherAPI", "NewsAPI", "SASS"],
+    deploy: "https://juancruzvalencia.github.io/News-web-app/",
   },
   {
     title: "Natali del Percio - Static Portfolio",
@@ -24,5 +26,6 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/screen-recording%20(3).gif?alt=media&token=a0b27c40-30b0-4a09-a44b-b72b72e3bba1",
     techs: ["HTML", "SASS"],
+    deploy: "https://natalidelperciofotografia.netlify.app/",
   },
 ];

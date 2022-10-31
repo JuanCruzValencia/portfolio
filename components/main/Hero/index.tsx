@@ -45,7 +45,7 @@ export const Hero = () => {
           work with different technologies as React, Next and SASS among others.
         </Text>
         <Stack spacing={4} direction="row" align="center" mt="10px">
-          <NextLink href="https://github.com/JuanCruzValencia">
+          <NextLink href="https://github.com/JuanCruzValencia" target="_blank">
             <Button
               bg="#5643fd"
               _hover={{ bg: "#ba1e68" }}
@@ -55,7 +55,7 @@ export const Hero = () => {
               Projects
             </Button>
           </NextLink>
-          <NextLink href="https://www.linkedin.com/in/juan-cruz-valencia-vernengo-b91948241/">
+          <NextLink href="https://www.linkedin.com/in/juan-cruz-valencia-vernengo-b91948241/" target="_blank">
             <Button
               bg="#5643fd"
               _hover={{ bg: "#ba1e68" }}
