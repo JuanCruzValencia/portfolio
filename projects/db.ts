@@ -5,7 +5,7 @@ export const projects = [
       "Aerolab SHop is an e-commerce web application that allows users to filter and redeem products from Aerolab API.",
     url: "https://github.com/JuanCruzValencia/aerolab-challenge",
     image:
-      "https://github.com/JuanCruzValencia/aerolab-challenge/blob/main/aerolab-challenge.gif",
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/aerolab-challenge.gif?alt=media&token=7e9dfc32-7e06-493f-8ce3-fd44bcbd84cd",
     techs: ["React", "Next", "ChakraUI", "AerolabAPI"],
     deploy: "https://juancruzvalencia.github.io/aerolab-challenge/",
   },
