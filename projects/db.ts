@@ -20,6 +20,16 @@ export const projects = [
     deploy: "https://juancruzvalencia.github.io/Balto-Shop/",
   },
   {
+    title: "Supermarket List - ToDo List React App",
+    description:
+      "Shopping list for the supermarket, you can add items that will be stored in the localstorage and can also been sent using WhatsApp API",
+    url: "https://github.com/JuanCruzValencia/supermarketList",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/supermarketList.gif?alt=media&token=360d4704-0eb9-41a6-b8ef-872cf9074508",
+    techs: ["ReactJS", "Vite", "ChakraUI", "WhatsAppAPI"],
+    deploy: "https://juancruzvalencia.github.io/supermarketList/",
+  },
+  {
     title: "JS News - News Portal Javascript App Project",
     description:
       "The purpose of the the project is to create a web app for javascript couse in CoderHouse. For build the front-end functionality Vanilla JavaScript is used. Inside the project we can filter news, search for particular city forecast, write, update and delete notes, and do simple math in the calculator.",
