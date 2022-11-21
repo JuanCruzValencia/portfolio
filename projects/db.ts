@@ -6,7 +6,7 @@ export const projects = [
     url: "https://github.com/JuanCruzValencia/aerolab-challenge",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/aerolab-challenge.gif?alt=media&token=7e9dfc32-7e06-493f-8ce3-fd44bcbd84cd",
-    techs: ["React", "Next", "ChakraUI", "AerolabAPI"],
+    techs: ["React", "TypeScript", "Next", "ChakraUI", "AerolabAPI"],
     deploy: "https://juancruzvalencia.github.io/aerolab-challenge/",
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     url: "https://github.com/JuanCruzValencia/Balto-Shop",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/screen-recording%20(4).gif?alt=media&token=a0ddea47-185f-4b8c-98bf-ee46a42b1ced",
-    techs: ["React", "Firebase", "FakeStoreAPI"],
+    techs: ["React", "JavaScript", "Firebase", "FakeStoreAPI"],
     deploy: "https://juancruzvalencia.github.io/Balto-Shop/",
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     url: "https://github.com/JuanCruzValencia/supermarketList",
     image:
       "https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/supermarketList.gif?alt=media&token=360d4704-0eb9-41a6-b8ef-872cf9074508",
-    techs: ["ReactJS", "Vite", "ChakraUI", "WhatsAppAPI"],
+    techs: ["ReactJS", "TypeScipt", "Vite", "ChakraUI", "WhatsAppAPI"],
     deploy: "https://juancruzvalencia.github.io/supermarketList/",
   },
   {
