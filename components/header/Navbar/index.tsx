@@ -1,14 +1,14 @@
 import { Flex, Box, Spacer, Link, Image } from "@chakra-ui/react";
 import NextLink from "next/link";
 
-export const Navbar = () => {
+export const Navbar: React.FC = () => {
   return (
     <Flex
       align="center"
       justify="center"
-      p={{base: "0", md: "10px 50px"}}
+      p={{base: "0", md: "20px 60px"}}
       borderBottom="1px solid #ffffff"
-      maxH="50px"
+      maxH="60px"
     >
       <Box>
         <Image

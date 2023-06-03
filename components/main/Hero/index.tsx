@@ -14,7 +14,14 @@ import NextLink from "next/link";
 
 export const Hero = () => {
   return (
-    <Flex h="100%" gap="7rem" justify="center" mt="70px" w="100%" direction={{base: "column", md: "row"}}>
+    <Flex
+      h="100%"
+      gap="7rem"
+      justify="center"
+      mt="70px"
+      w="100%"
+      direction={{ base: "column", md: "row" }}
+    >
       <Box
         className={styles.hero__info}
         display="flex"
@@ -41,8 +48,9 @@ export const Hero = () => {
           Hi, i&apos;m Juan Cruz
         </Heading>
         <Text fontSize="1.1em">
-          I love to create beautiful and clean digital experiences. I like to
-          work with different technologies as React, Next and SASS among others.
+          I am passionate about creating beautiful and clean digital
+          experiences. I enjoy working with various technologies such as
+          TypeScript, NextJS, and TailwindCSS, among others.
         </Text>
         <Stack spacing={4} direction="row" align="center" mt="10px">
           <NextLink href="https://github.com/JuanCruzValencia" target="_blank">
@@ -55,7 +63,10 @@ export const Hero = () => {
               Projects
             </Button>
           </NextLink>
-          <NextLink href="https://www.linkedin.com/in/juan-cruz-valencia-vernengo-b91948241/" target="_blank">
+          <NextLink
+            href="https://www.linkedin.com/in/juan-cruz-valencia-vernengo-b91948241/"
+            target="_blank"
+          >
             <Button
               bg="#5643fd"
               _hover={{ bg: "#ba1e68" }}
@@ -69,7 +80,7 @@ export const Hero = () => {
       </Box>
       <Box className={styles.hero__img}>
         <Image
-          src="https://firebasestorage.googleapis.com/v0/b/my-portfolio-jcvv.appspot.com/o/nubelson-fernandes-jKL2PvKN8Q0-unsplash.jpg?alt=media&token=fc8b0005-714f-424d-9d61-111723749379"
+          src="/images/altumcode-zE007SNgcdE-unsplash.jpg"
           alt="Juan Cruz Valencia"
           boxSize="550px"
           borderRadius={10}

@@ -15,10 +15,10 @@ import { IoReaderOutline } from "react-icons/io5";
 export const About = () => {
   return (
     <Flex
-      direction={{base: "column", md: "row-reverse"}}
+      direction={{ base: "column", md: "row-reverse" }}
       id="about"
-      gap={{base: "1rem", md: "80px"}}
-      p={{base: "1rem", md: "4rem"}}
+      gap={{ base: "1rem", md: "80px" }}
+      p={{ base: "1rem", md: "4rem" }}
       h="100%"
       mt="10rem"
     >
@@ -52,14 +52,15 @@ export const About = () => {
           </Heading>
         </Stack>
         <Text textAlign="justify" fontSize="1.3em">
-          I am a student of Full Stack Web Development, I love creating and
-          designing features and user-oriented digital experiences. I like to
-          work with different technologies like JavaScript, ReactJS and CSS/SASS
-          among others. Every day I work on improving the projects created and
-          on new ones to continue learning. I acquired my knowledge studying in
-          a self-taught way and at CoderHouse&apos;s FullStack Developer course.
-          My goal is to be able to work day by day creating solutions and
-          providing a satisfactory experience without problems or errors.
+          I am a Full Stack Web Development student. I am passionate about
+          creating and designing user-oriented digital experiences. I enjoy
+          working with various technologies such as TypeScript, ReactJS, and
+          TailwindCSS, among others. Every day, I strive to improve existing
+          projects and embark on new ones to further enhance my skills. I have
+          acquired my knowledge through self-study and by completing the Full
+          Stack Developer course at CoderHouse. My ultimate goal is to work
+          diligently in creating solutions and delivering seamless experiences,
+          free from any issues or errors.
         </Text>
       </Box>
       <Divider orientation="vertical" color="#bbe5ed" />
